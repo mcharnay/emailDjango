@@ -1,0 +1,26 @@
+1-.entorno conda colegio
+    Crear requirements.txt
+crear proyectoi con django y python segun requirements >    admin startproject nombreProyecto .
+crear app en raiz proyecto >    python manage.py startapp nombreapp
+
+1-.2-. Registrar la aplicación en settings.py
+    
+    crear clases dentro de modelo para prox migracion
+
+2-.Migraciones:
+
+python manage.py migrate
+python manage.py makemigrations 
+
+3-. Creación del su
+python manage.py createsuperuser
+
+4-. Enviar correo:
+    Se configura en settings
+
+5-. URLS
+http://127.0.0.1:8000/formularioContacto/
+http://127.0.0.1:8000/admin/
+
+
+
